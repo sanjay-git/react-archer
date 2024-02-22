@@ -26,7 +26,7 @@ const ArcherContainer = React.forwardRef<ArcherContainerHandle, ArcherContainerP
     {
       endShape = endShapeDefaultProp,
       strokeColor = '#f00',
-      strokeWidth = 2,
+      strokeWidth = 12,
       svgContainerStyle = {},
       noCurves,
       children,
