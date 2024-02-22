@@ -50,6 +50,7 @@ const ArcherContainer = React.forwardRef<ArcherContainerHandle, ArcherContainerP
       }),
     ).current;
 
+    console.log('yay!');
     const parent = useRef<HTMLDivElement>(null);
 
     const [, updateState] = React.useState<{}>();
