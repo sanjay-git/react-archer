@@ -69,7 +69,7 @@ const ArcherContainer = React.forwardRef<ArcherContainerHandle, ArcherContainerP
      * Use this to recompute all the arrow positions. Useful if arrows do not properly rerender
      * after the viewport or some elements moved.
      */
-    const refreshScreen = React.useCallback(() => updateState({}), []);
+    const refreshScreen = React.useCallback(() => {}, []);
 
     const _registerTransitions = useCallback(
       (elementId: string, newSourceToTargets: SourceToTargetType[]): void => {
